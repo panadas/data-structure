@@ -3,7 +3,7 @@
 <phpunit bootstrap="tests/bootstrap.php" colors="true">
 
     <testsuites>
-        <testsuite name="panadas/module-data-structure">
+        <testsuite name="panadas/data-structure">
             <directory>tests/</directory>
         </testsuite>
     </testsuites>

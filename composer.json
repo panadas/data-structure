@@ -1,5 +1,5 @@
 {
-    "name": "panadas/module-data-structure",
+    "name": "panadas/data-structure",
     "description": "Common data structures with a fluid API.",
     "license": "MIT",
     "type": "library",
@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4" : {
-            "Panadas\\DataStructureModule\\": "src/"
+            "Panadas\\DataStructure\\": "src/"
         }
     },
     "minimum-stability": "dev",

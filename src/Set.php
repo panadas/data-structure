@@ -1,5 +1,5 @@
 <?php
-namespace Panadas\DataStructure;
+namespace Panadas\DataStructureModule;
 
 class Set extends ArrayList
 {

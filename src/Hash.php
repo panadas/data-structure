@@ -1,5 +1,5 @@
 <?php
-namespace Panadas\DataStructure;
+namespace Panadas\DataStructureModule;
 
 use Panadas\Util\Php;
 

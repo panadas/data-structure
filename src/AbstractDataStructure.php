@@ -1,5 +1,5 @@
 <?php
-namespace Panadas\DataStructure;
+namespace Panadas\DataStructureModule;
 
 abstract class AbstractDataStructure implements \Countable, \IteratorAggregate, \JsonSerializable, \Serializable
 {

@@ -107,6 +107,28 @@ class ArrayList extends AbstractDataStructure
         return $this;
     }
 
+    public function shift()
+    {
+        $item = $this->first();
+
+        if (null === $item) {
+            $this->remove($item);
+        }
+
+        return $item;
+    }
+
+    public function pop()
+    {
+        $item = $this->last();
+
+        if (null === $item) {
+            $this->remove($item);
+        }
+
+        return $item;
+    }
+
     public function remove($item, $strict = false)
     {
         $this->filter($item);

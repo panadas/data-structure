@@ -16,7 +16,7 @@ abstract class AbstractDataStructure implements \Countable, \IteratorAggregate, 
 
     public function jsonSerialize()
     {
-        return json_encode($this->all());
+        return $this->all();
     }
 
     public function getIterator()
